@@ -15,7 +15,9 @@ public class WebTable extends Base{
 static WebDriver driver;
 	public static void m1(String operation) {
 		try {
-			
+			System.out.println("test");
+			System.out.println("test");
+			System.out.println("test");
 			WebElement table = driver.findElement(getlocator("Branchtable"));
 
 			List<WebElement> rows = table.findElements(getlocator("Branchrow"));
